@@ -49,3 +49,4 @@
 
         this.y += Math.sin(this.angle) * this.speed;
 
+        this.x = (this.x + canvas.width) % canvas.width;
